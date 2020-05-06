@@ -1,9 +1,9 @@
-WinPE is a small operating system used to install, deploy, and repair Windows. From WinPE, you can:
+USBboot supports run WinPE from USB.
 
-1. Setting up Windows
-2. Backing up Windows
-3. Checking Hard disk
+# Install
+1. Format your USB to FAT32 or NTFS. Don't forget set USB active.
+2. Download this responsitory and extract to USB.
+3. Copy `boot.wim` file to `sources` folder.
+4. Restart and enter boot mode.
 
-To use, download this responsitory and extract to USB.
-
-Note: If USB isn't working, please using BootICS's Parts Manage to Re-Partitioning.
+> Note: If USB isn't working, please using BootICS's Parts Manage to Re-Partitioning.
